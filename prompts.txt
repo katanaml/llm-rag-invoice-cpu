@@ -1,0 +1,83 @@
+python main.py "What is the invoice number value?"
+
+Answer: The invoice number value is 61356291.
+==================================================
+Time to retrieve answer: 89.62815634801518
+
+
+python main.py "What is the invoice date value?"
+
+Answer: The invoice date value is 09/06/2012.
+==================================================
+Time to retrieve answer: 96.43752192996908
+
+
+python main.py "What is the invoice client name, address and tax ID?"
+
+Answer: Invoice client name: Rodriguez-Stevens
+Address: 2280 Angela Plain, Hortonshire, MS 93248
+Tax ID: 939-98-8477
+==================================================
+Time to retrieve answer: 124.1885514879832
+
+
+python main.py "What is the invoice seller name, address and tax ID?"
+
+Answer: Invoice seller name: Chapman, Kim and Green.
+Address: 64731 James Branch, Smithmouth, NC 26872.
+Tax ID: 949-84-9105.
+==================================================
+Time to retrieve answer: 128.90529456199147
+
+
+python main.py "What is the invoice IBAN value?"
+
+Answer: The invoice IBAN value is GB50ACIE59715038217063.
+==================================================
+Time to retrieve answer: 104.36387340398505
+
+
+python main.py "retrieve two values: net price and gross worth for the second invoice item"
+
+Answer: The net price of the second invoice item is $28.08 and the gross worth is $123.55.
+==================================================
+Time to retrieve answer: 94.72781465109438
+
+
+python main.py "retrieve gross worth value for each invoice item available in the table"
+
+Answer: Gross worth value for each invoice item is as follows:
+Wine Glasses Goblets Pair Clear - $66.00
+With Hooks Stemware Storage - $123.55
+Replacement Corkscrew Parts - $8.25
+HOME ESSENTIALS GRADIENT STEMLESS WINE GLASSES SET OF 4 - $14.29
+==================================================
+Time to retrieve answer: 155.1849697009893
+
+
+python main.py "What are the names of invoice items included into invoice?"
+
+Answer: The names of invoice items included into the invoice are:
+
+1. Wine Glasses Goblets Pair Clear
+2. With Hooks Stemware Storage Multiple Uses Iron Wine Rack Hanging Glass
+3. Replacement Corkscrew Parts Spiral Worm Wine Opener Bottle Houdini
+4. HOME ESSENTIALS GRADIENT STEMLESS WINE GLASSES SET OF 4 20 FL OZ (591 ml) NEW
+==================================================
+Time to retrieve answer: 189.54536735790316
+
+
+python main.py "retrieve invoice gross worth total amount"
+
+Answer: The gross worth of the invoice is $212.09.
+==================================================
+Time to retrieve answer: 99.25704580405727
+
+
+python main.py "retrieve three values: total gross worth, invoice number and invoice date"
+
+Answer: Total gross worth: $212,09
+Invoice number: 61356291
+Invoice date: 09/06/2012
+==================================================
+Time to retrieve answer: 114.37888687697705

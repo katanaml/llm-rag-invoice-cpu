@@ -1,0 +1,6 @@
+llama-cpp-python
+farm-haystack[weaviate]
+haystack-ai
+sentence_transformers
+pypdf
+python-box
