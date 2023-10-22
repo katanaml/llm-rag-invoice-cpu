@@ -1,7 +1,7 @@
 # Invoice data processing with Llama2 13B LLM RAG on Local CPU
 
 
-**Youtube**: <a href="https://youtu.be/5Q4Q1Q4Q1Q4" target="_blank">Invoice Data Processing with Llama2 13B LLM RAG on Local CPU</a>
+**Youtube**: <a href="https://www.youtube.com/watch?v=XuvdgCuydsM" target="_blank">Invoice Data Processing with Llama2 13B LLM RAG on Local CPU</a>
 
 ___
 
