@@ -25,7 +25,7 @@ if __name__ == "__main__":
 
     end = timeit.default_timer()
 
-    print(f'\nAnswer: {answer}')
+    print(f'\nAnswer:\n {answer}')
     print('='*50)
 
     print(f"Time to retrieve answer: {end - start}")

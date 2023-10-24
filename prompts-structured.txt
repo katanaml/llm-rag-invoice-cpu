@@ -1,0 +1,71 @@
+python main.py "retrieve invoice number in the format {\"invoice_number\": {}}"
+
+ {"invoice_number": "61356291"}
+==================================================
+Time to retrieve answer: 93.37903362209909
+
+
+python main.py "What is the invoice date value? use this format for the answer {\"invoice_date\": {}}"
+
+ {"invoice_date": {"date": "09/06/2012"}}
+==================================================
+Time to retrieve answer: 95.65435898804571
+
+
+python main.py "What is the invoice client name, address and tax ID? use this format for the answer {\"client_name\": {},\"address\": {},\"tax_id\": {}}"
+
+ {"client_name": "Rodriguez-Stevens", "address": "2280 Angela Plain, Hortonshire, MS 93248", "tax_id": "939-98-8477"}
+==================================================
+Time to retrieve answer: 125.74140086490661
+
+
+python main.py "What is the invoice seller name, address and tax ID? use this format for the answer {\"seller_name\": {},\"address\": {},\"tax_id\": {}}"
+
+ {"seller_name": "Chapman, Kim and Green", "address": "64731 James Branch Smithmouth, NC 26872", "tax_id": "949-84-9105"}
+==================================================
+Time to retrieve answer: 116.23752232501283
+
+
+python main.py "retrieve invoice IBAN in the format {\"invoice_iban\": {}}"
+
+{"invoice_iban": {"GB50ACIE59715038217063"}}
+==================================================
+Time to retrieve answer: 98.67039507010486
+
+
+ python main.py "retrieve two values: net price and gross worth for the second invoice item in this format: {\"net_price\": {},\"gross_worth\": {}}"
+
+ No answer
+
+
+ python main.py "retrieve gross worth value for each invoice item available in the table, in the format {\"gross_worth\": []}"
+
+ No answer
+
+
+python main.py "What are the names of invoice items included into invoice? use this format for the answer {\"item_name\": []}"
+
+Answer:
+ {"item_name": [
+"Wine Glasses Goblets Pair Clear",
+"With Hooks Stemware Storage Multiple Uses Iron Wine Rack Hanging Glass",
+"Replacement Corkscrew Parts Spiral Worm Wine Opener Bottle Houdini",
+"HOME ESSENTIALS GRADIENT STEMLESS WINE GLASSES SET OF 4 20 FL OZ (591 ml) NEW"]}
+==================================================
+Time to retrieve answer: 160.49235485703684
+
+
+python main.py "retrieve invoice total info. use this format for the answer {\"invoice_total\": {}}"
+
+Answer:
+ {"invoice_total": {"net_worth": 192.81, "vat": 19.28, "gross_worth": 212.09}}
+==================================================
+Time to retrieve answer: 108.48460242396686
+
+
+python main.py "retrieve three values: total gross worth, invoice number and invoice date. use this format for the response {\"total_gross_worth\": {}, \"invoice_number\": {}, \"invoice_date\": {}}"
+
+Answer:
+ {"total_gross_worth": 212.09, "invoice_number": 61356291, "invoice_date": "09/06/2012"}
+==================================================
+Time to retrieve answer: 111.77387699997053
