@@ -1,7 +1,6 @@
 import timeit
 import argparse
 from llm.wrapper import setup_rag_pipeline
-import re
 
 
 if __name__ == "__main__":
